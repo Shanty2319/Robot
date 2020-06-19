@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.head {
+    position: absolute;
+    top:8%;
+    left:42%;
+    width:14%;
+    height:27%;
+    background:#eebf24;
+    border-radius:5%;
+}
+.eye-left {
+    position: absolute;
+    top:12%;
+    left:21%;
+    width:27%;
+    height:42%;
+    background: white;
+    border-radius:50%;
+    border-left: solid 3px grey;
+}
+.eye-right {
+    position: absolute;
+    top:12%;
+    right:21%;
+    width:27%;
+    height:42%;
+    background: white;
+    border-radius:50%;
+    border-right: solid 3px grey;
+}
+.inner-eye-left {
+    position: absolute;
+    top:15%;
+    left:26%;
+    width:42%;
+    height:46%;
+    background:black;
+    border-radius:50%;
+    border-left: solid 7px green;
+    border-top: solid 7px green;
+    border-bottom: solid 7px green;
+}
+.inner-eye-right {
+    position: absolute;
+    top:15%;
+    right:26%;
+    width:42%;
+    height:46%;
+    background:black;
+    border-radius:50%;
+    border-right: solid 7px green;
+    border-top: solid 7px green;
+    border-bottom: solid 7px green;
+}
+.pupil-left {
+    position: absolute;
+    top:15%;
+    left:22%;
+    width:22%;
+    height:26%;
+    background: white;
+    border-radius:50%;
+}
+.pupil-right {
+    position: absolute;
+    top:15%;
+    right:22%;
+    width:22%;
+    height:26%;
+    background: white;
+    border-radius:50%;
+}
+.mouth {
+    position: absolute;
+    top:28%;
+    left:30%;
+    width:42%;
+    height:46%;
+    border-radius:50%;
+    border-bottom: solid 23px black;
+}
+.ear-bar {
+    position: absolute;
+    top:31%;
+    left:-9%;
+    width:120%;
+    height:31%;
+    background:  #720808;
+    z-index: -1;
+}
+.ear-left-circle {
+    position: absolute;
+    top: 38%;
+    left: -22%;
+    width: 14%;
+    height: 16%;
+    background: #720808;
+    border-radius: 50%;
+}
+.ear-right-circle {
+    position: absolute;
+    top: 38%;
+    right: -25%;
+    width: 14%;
+    height: 16%;
+    background:#720808;
+    border-radius: 50%;
+}
+.neck {
+    position: absolute;
+    top: 99%;
+    left: 39%;
+    width: 24%;
+    height: 21%;
+    background: rgb(114, 8, 8);
+    border-radius: 5%;
+}
+.upper-body {
+    position: absolute;
+    top: 120%;
+    left: -5%;
+    width: 114%;
+    height: 120%;
+    background:#eebf24;
+    border-radius: 5%;
+}
+.hand-left {
+    position: absolute;
+    top: 159%;
+    left: -70%;
+    width: 81%;
+    height: 20%;
+    background: #720808;
+    border-radius: 15%;
+    z-index: -1;
+    transform: rotate(-40deg);
+}
+.hand-right {
+    position: absolute;
+    top: 155%;
+    right: -70%;
+    width: 81%;
+    height: 20%;
+    background: #720808;
+    border-radius: 15%;
+    z-index: -1;
+    transform: rotate(40deg);
+}
+.leg-left {
+    position: absolute;
+    top: 236%;
+    left: 13%;
+    width: 24%;
+    height: 71%;
+    background: #eebf24;
+    border-radius: 15%;
+}
+.leg-right {
+    position: absolute;
+    top: 236%;
+    right: 13%;
+    width: 24%;
+    height: 71%;
+    background: #eebf24;
+    border-radius: 15%;
+}
+.shoes-left {
+    position: absolute;
+    top: 90%;
+    left: -19%;
+    width: 135%;
+    height: 31%;
+    background: #720808;
+    border-radius: 15%;
+}
+.shoes-right {
+    position: absolute;
+    top: 90%;
+    right: -19%;
+    width: 135%;
+    height: 31%;
+    background: #720808;
+    border-radius:15%;
+}
+
+
+</style>
+<body>
+    <div class="box">
+      <div class="head">
+        <div class="eye-left">
+          <div class="inner-eye-left"></div>
+          <div class="pupil-left"></div>
+        </div>
+        <div class="eye-right">
+            <div class="inner-eye-right"></div>
+            <div class="pupil-right"></div>
+        </div>
+
+        <div class="mouth"></div>
+
+        <div class="ear-bar"></div>
+
+        <div class="ear-left-circle"></div>
+        <div class="ear-right-circle"></div>
+        
+        <div class="neck"></div>
+        <div class="upper-body"></div>
+
+        <div class="hand-left"></div>
+        <div class="hand-right"></div>
+
+        <div class="leg-left">
+            <div class="shoes-left"></div>
+        </div>
+        <div class="leg-right">
+            <div class="shoes-right"></div>
+        </div>
+
+      </div>
+    </div>
+</body>
+</html>
